@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Stand13
-{
+{//как работает гит?
     public static class Tags
     {
         /// <summary>
