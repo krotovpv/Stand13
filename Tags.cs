@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Stand13
-{//как работает гит?
+{
     public static class Tags
     {
         /// <summary>
@@ -73,12 +73,9 @@ namespace Stand13
         /// <param name="TimeStamps">Время получение данных</param>
         private static void OPCGroupDataChange(int TransactionID, int NumItems, ref Array ClientHandles, ref Array ItemValues, ref Array Qualities, ref Array TimeStamps)
         {
-            int clientHandle;
             for (int i = 1; i < NumItems + 1; i++)
             {
-                clientHandle = Convert.ToInt32(ClientHandles.GetValue(i));
-                Tag tag = Items.First(x => x.ClientHandle == clientHandle);
-                tag.Value = ItemValues.GetValue(i).ToString();
+                GetTag((int)ClientHandles.GetValue(i)).Value = ItemValues.GetValue(i).ToString();
             }
         }
 
@@ -111,12 +108,12 @@ namespace Stand13
 
         public static Tag GetTag(int ClientHandle)
         {
-
+            return Items.First(x => x.ClientHandle == ClientHandle);
         }
 
         public static Tag GetTag(string Name)
         {
-
+            return Items.First(x => x.Name == Name);
         }
     }
 }
