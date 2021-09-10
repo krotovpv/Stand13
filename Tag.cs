@@ -18,12 +18,12 @@ namespace Stand13
         /// <summary>
         /// Уникальный идентификатор на стороне сервера
         /// </summary>
-        public int ServerHandle { get; private set; }
+        public int ServerHandle { get; set; }
 
         /// <summary>
         /// Имя тэга описанного в ОРС сервере
         /// </summary>
-        public string Name { get; private set; }
+        public string TagID { get; private set; }
 
         /// <summary>
         /// Текущее значение тэга
@@ -57,10 +57,10 @@ namespace Stand13
         /// <param name="ClientHandle">Идентификатор на стороне клиента</param>
         /// <param name="Name">Имя тэга в ОРС сервере</param>
         /// <param name="Comment">Коментарий</param>
-        public Tag(int ClientHandle, string Name, string Comment = "")
+        public Tag(int ClientHandle, string TagID, string Comment = "")
         {
             this.ClientHandle = ClientHandle;
-            this.Name = Name;
+            this.TagID = TagID;
             this.Comment = Comment;
         }
     }

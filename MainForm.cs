@@ -15,6 +15,7 @@ namespace Stand13
         public MainForm()
         {
             InitializeComponent();
+            ConnectToOPC.Connect();
         }
     }
 }

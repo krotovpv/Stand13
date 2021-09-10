@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConnectionToPLC.cs" />
+    <Compile Include="ConnectionToOPC.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
