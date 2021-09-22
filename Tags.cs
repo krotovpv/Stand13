@@ -109,16 +109,31 @@ namespace Stand13
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Получить тег по идентификатору клиента
+        /// </summary>
+        /// <param name="ClientHandle">Идентификатор клиента</param>
+        /// <returns></returns>
         public static Tag GetTagByClientHandle(int ClientHandle)
         {
             return Items.First(x => x.ClientHandle == ClientHandle);
         }
 
+        /// <summary>
+        /// Получить тег по идентификатору сервера
+        /// </summary>
+        /// <param name="ServerHandle">Идентификатор сервера</param>
+        /// <returns></returns>
         public static Tag GetTagByServerHandle(int ServerHandle)
         {
             return Items.First(x => x.ServerHandle == ServerHandle);
         }
 
+        /// <summary>
+        /// Получить тег
+        /// </summary>
+        /// <param name="TagID">Имя тега</param>
+        /// <returns></returns>
         public static Tag GetTag(string TagID)
         {
             return Items.First(x => x.TagID == TagID);
