@@ -1,0 +1,13 @@
+C:\Users\MrSet\Desktop\Stand13\bin\Release\Stand13.exe.config
+C:\Users\MrSet\Desktop\Stand13\bin\Release\Stand13.exe
+C:\Users\MrSet\Desktop\Stand13\bin\Release\Stand13.pdb
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.csproj.AssemblyReference.cache
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.csproj.SuggestedBindingRedirects.cache
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Interop.OPCAutomation.dll
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.csproj.ResolveComReference.cache
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.MainForm.resources
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.Properties.Resources.resources
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.csproj.GenerateResource.cache
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.csproj.CoreCompileInputs.cache
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.exe
+C:\Users\MrSet\Desktop\Stand13\obj\Release\Stand13.pdb
